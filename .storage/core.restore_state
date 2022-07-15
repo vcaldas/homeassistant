@@ -13,16 +13,16 @@
           "user_id": "8530e0e39fb1430e800bc938730c17e2",
           "friendly_name": "Victor Caldas"
         },
-        "last_changed": "2022-07-11T09:07:53.860080+00:00",
-        "last_updated": "2022-07-11T09:08:05.771165+00:00",
+        "last_changed": "2022-07-15T09:47:43.016702+00:00",
+        "last_updated": "2022-07-15T09:47:53.576719+00:00",
         "context": {
-          "id": "01G7P8830BPS7HRP8H318VYVGX",
+          "id": "01G80M3TV8N28W2SRRBCJNT458",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-15T09:08:06.365578+00:00"
+      "last_seen": "2022-07-15T09:47:53.582371+00:00"
     },
     {
       "state": {
@@ -41,16 +41,16 @@
           "friendly_name": "Home Assistant Supervisor: Update",
           "supported_features": 1
         },
-        "last_changed": "2022-07-11T09:08:00.623494+00:00",
-        "last_updated": "2022-07-11T09:08:00.623494+00:00",
+        "last_changed": "2022-07-15T09:47:48.656076+00:00",
+        "last_updated": "2022-07-15T09:47:48.656076+00:00",
         "context": {
-          "id": "01G7P87XZF9J75YXH7ABRTXD02",
+          "id": "01G80M3P1GJNSG6HXCXSVM92WC",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-15T09:08:06.365578+00:00"
+      "last_seen": "2022-07-15T09:47:53.582371+00:00"
     },
     {
       "state": {
@@ -69,16 +69,16 @@
           "friendly_name": "Home Assistant Core: Update",
           "supported_features": 11
         },
-        "last_changed": "2022-07-14T00:58:22.205493+00:00",
-        "last_updated": "2022-07-15T07:00:18.210582+00:00",
+        "last_changed": "2022-07-15T09:47:48.657906+00:00",
+        "last_updated": "2022-07-15T09:47:48.657906+00:00",
         "context": {
-          "id": "01G80AGZ521EANJ6Y4MWTBT6JY",
+          "id": "01G80M3P1HHQ1CKB34KQQCHTA8",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-15T09:08:06.365578+00:00"
+      "last_seen": "2022-07-15T09:47:53.582371+00:00"
     },
     {
       "state": {
@@ -97,16 +97,16 @@
           "friendly_name": "File editor: Update",
           "supported_features": 25
         },
-        "last_changed": "2022-07-11T09:08:00.624636+00:00",
-        "last_updated": "2022-07-11T09:08:00.624636+00:00",
+        "last_changed": "2022-07-15T09:47:48.658327+00:00",
+        "last_updated": "2022-07-15T09:47:48.658327+00:00",
         "context": {
-          "id": "01G7P87XZGE9AQ7FZNJG1ANMAY",
+          "id": "01G80M3P1JFPVY4REWTHDRNQW2",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-15T09:08:06.365578+00:00"
+      "last_seen": "2022-07-15T09:47:53.582371+00:00"
     },
     {
       "state": {
@@ -125,16 +125,16 @@
           "friendly_name": "Terminal & SSH: Update",
           "supported_features": 25
         },
-        "last_changed": "2022-07-11T09:08:00.624979+00:00",
-        "last_updated": "2022-07-11T09:08:00.624979+00:00",
+        "last_changed": "2022-07-15T09:47:48.658618+00:00",
+        "last_updated": "2022-07-15T09:47:48.658618+00:00",
         "context": {
-          "id": "01G7P87XZG1SE5P874W93YF5YK",
+          "id": "01G80M3P1J1SJG27BP33M49RCD",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-15T09:08:06.365578+00:00"
+      "last_seen": "2022-07-15T09:47:53.582371+00:00"
     },
     {
       "state": {
@@ -153,16 +153,16 @@
           "friendly_name": "Git pull: Update",
           "supported_features": 25
         },
-        "last_changed": "2022-07-11T09:08:00.625334+00:00",
-        "last_updated": "2022-07-11T09:08:00.625334+00:00",
+        "last_changed": "2022-07-15T09:47:48.659043+00:00",
+        "last_updated": "2022-07-15T09:47:48.659043+00:00",
         "context": {
-          "id": "01G7P87XZH362BSBJC8CERXRS6",
+          "id": "01G80M3P1K506DVNG7S8GQ6DXY",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-15T09:08:06.365578+00:00"
+      "last_seen": "2022-07-15T09:47:53.582371+00:00"
     },
     {
       "state": {
@@ -181,16 +181,16 @@
           "friendly_name": "UniFi Network Application: Update",
           "supported_features": 25
         },
-        "last_changed": "2022-07-11T09:08:00.625788+00:00",
-        "last_updated": "2022-07-11T09:08:00.625788+00:00",
+        "last_changed": "2022-07-15T09:47:48.659314+00:00",
+        "last_updated": "2022-07-15T09:47:48.659314+00:00",
         "context": {
-          "id": "01G7P87XZHEPB5ZG518CNBCRHB",
+          "id": "01G80M3P1K6J89H5FCAR87B4D2",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-15T09:08:06.365578+00:00"
+      "last_seen": "2022-07-15T09:47:53.582371+00:00"
     },
     {
       "state": {
@@ -209,16 +209,16 @@
           "friendly_name": "Studio Code Server: Update",
           "supported_features": 25
         },
-        "last_changed": "2022-07-11T09:08:00.626081+00:00",
-        "last_updated": "2022-07-11T09:08:00.626081+00:00",
+        "last_changed": "2022-07-15T09:47:48.659558+00:00",
+        "last_updated": "2022-07-15T09:47:48.659558+00:00",
         "context": {
-          "id": "01G7P87XZJDGHT8798MP4T0C3Y",
+          "id": "01G80M3P1K877GVPRB448F0YN4",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-15T09:08:06.365578+00:00"
+      "last_seen": "2022-07-15T09:47:53.582371+00:00"
     },
     {
       "state": {
@@ -237,16 +237,16 @@
           "friendly_name": "Home Assistant Operating System: Update",
           "supported_features": 3
         },
-        "last_changed": "2022-07-11T09:08:00.626627+00:00",
-        "last_updated": "2022-07-11T09:08:00.626627+00:00",
+        "last_changed": "2022-07-15T09:47:48.660024+00:00",
+        "last_updated": "2022-07-15T09:47:48.660024+00:00",
         "context": {
-          "id": "01G7P87XZJYC00T0NNVRRCTTB8",
+          "id": "01G80M3P1M2CD4FTA75G0TENPW",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-15T09:08:06.365578+00:00"
+      "last_seen": "2022-07-15T09:47:53.582371+00:00"
     },
     {
       "state": {
@@ -255,16 +255,16 @@
         "attributes": {
           "friendly_name": "tado Internet Bridge IB2331906304 Identify"
         },
-        "last_changed": "2022-07-11T09:08:05.271523+00:00",
-        "last_updated": "2022-07-11T09:08:05.271523+00:00",
+        "last_changed": "2022-07-15T09:47:52.566777+00:00",
+        "last_updated": "2022-07-15T09:47:52.566777+00:00",
         "context": {
-          "id": "01G7P882GQ0QQEQ1RW0WHWE6YB",
+          "id": "01G80M3SVPQ5D28Y1A116FSSMS",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-15T09:08:06.365578+00:00"
+      "last_seen": "2022-07-15T09:47:53.582371+00:00"
     },
     {
       "state": {
@@ -273,16 +273,16 @@
         "attributes": {
           "friendly_name": "tado Smart Radiator Thermostat VA1004345088 Identify"
         },
-        "last_changed": "2022-07-11T09:08:05.271735+00:00",
-        "last_updated": "2022-07-11T09:08:05.271735+00:00",
+        "last_changed": "2022-07-15T09:47:52.567002+00:00",
+        "last_updated": "2022-07-15T09:47:52.567002+00:00",
         "context": {
-          "id": "01G7P882GQZ1D9SYFXPTG52S36",
+          "id": "01G80M3SVQC2S0TGNRDP7WTDTT",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-15T09:08:06.365578+00:00"
+      "last_seen": "2022-07-15T09:47:53.582371+00:00"
     },
     {
       "state": {
@@ -291,16 +291,16 @@
         "attributes": {
           "friendly_name": "tado Smart Radiator Thermostat VA2129598208 Identify"
         },
-        "last_changed": "2022-07-11T09:08:05.271941+00:00",
-        "last_updated": "2022-07-11T09:08:05.271941+00:00",
+        "last_changed": "2022-07-15T09:47:52.567221+00:00",
+        "last_updated": "2022-07-15T09:47:52.567221+00:00",
         "context": {
-          "id": "01G7P882GQC1SRV4GREHT3F2G2",
+          "id": "01G80M3SVQD3F5BG1Q05NDAG7P",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-15T09:08:06.365578+00:00"
+      "last_seen": "2022-07-15T09:47:53.582371+00:00"
     },
     {
       "state": {
@@ -309,16 +309,16 @@
         "attributes": {
           "friendly_name": "tado Smart Thermostat RU0616763904 Identify"
         },
-        "last_changed": "2022-07-11T09:08:05.272139+00:00",
-        "last_updated": "2022-07-11T09:08:05.272139+00:00",
+        "last_changed": "2022-07-15T09:47:52.567433+00:00",
+        "last_updated": "2022-07-15T09:47:52.567433+00:00",
         "context": {
-          "id": "01G7P882GRC00E87V7PBJQN8HJ",
+          "id": "01G80M3SVQS1T8WJ175P94JMMC",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-15T09:08:06.365578+00:00"
+      "last_seen": "2022-07-15T09:47:53.582371+00:00"
     },
     {
       "state": {
@@ -328,16 +328,16 @@
           "device_class": "update",
           "friendly_name": "shellyswitch25-68C63AFB780A OTA Update"
         },
-        "last_changed": "2022-07-11T09:08:05.525415+00:00",
-        "last_updated": "2022-07-11T09:08:05.525415+00:00",
+        "last_changed": "2022-07-15T09:47:52.819991+00:00",
+        "last_updated": "2022-07-15T09:47:52.819991+00:00",
         "context": {
-          "id": "01G7P882RNMJW63SKYVGP8F3BS",
+          "id": "01G80M3T3KKYRNCSRCTN0QDMBR",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-15T09:08:06.365578+00:00"
+      "last_seen": "2022-07-15T09:47:53.582371+00:00"
     },
     {
       "state": {
@@ -347,16 +347,16 @@
           "device_class": "restart",
           "friendly_name": "shellyswitch25-68C63AFB780A Reboot"
         },
-        "last_changed": "2022-07-11T09:08:05.525785+00:00",
-        "last_updated": "2022-07-11T09:08:05.525785+00:00",
+        "last_changed": "2022-07-15T09:47:52.820262+00:00",
+        "last_updated": "2022-07-15T09:47:52.820262+00:00",
         "context": {
-          "id": "01G7P882RNZ3D8QAV0K6VZWQ7H",
+          "id": "01G80M3T3MBW6PZ2QKGZCP5KA5",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-15T09:08:06.365578+00:00"
+      "last_seen": "2022-07-15T09:47:53.582371+00:00"
     }
   ]
 }

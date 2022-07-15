@@ -1,65 +1,29 @@
-2022-07-11 11:07:51 WARNING (SyncWorker_1) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2022-07-11 11:07:51 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration birthdays which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2022-07-11 11:07:51 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration ui_lovelace_minimalist which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2022-07-11 11:07:51 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration afvalwijzer which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2022-07-11 11:07:51 WARNING (SyncWorker_2) [homeassistant.loader] We found a custom integration browser_mod which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2022-07-11 11:08:00 ERROR (MainThread) [custom_components.ui_lovelace_minimalist.load_plugins] HACS Frontend repo "button-card" is already installed, Remove it or disable include custom cards
-2022-07-11 11:08:00 ERROR (MainThread) [custom_components.ui_lovelace_minimalist.load_plugins] HACS Frontend repo "light-entity-card" is already installed, Remove it or disable include custom cards
-2022-07-11 11:08:00 ERROR (MainThread) [custom_components.ui_lovelace_minimalist.load_plugins] HACS Frontend repo "lovelace-card-mod" is already installed, Remove it or disable include custom cards
-2022-07-11 11:08:00 ERROR (MainThread) [custom_components.ui_lovelace_minimalist.load_plugins] HACS Frontend repo "lovelace-auto-entities" is already installed, Remove it or disable include custom cards
-2022-07-11 11:08:00 ERROR (MainThread) [custom_components.ui_lovelace_minimalist.load_plugins] HACS Frontend repo "mini-graph-card" is already installed, Remove it or disable include custom cards
-2022-07-11 11:08:00 ERROR (MainThread) [custom_components.ui_lovelace_minimalist.load_plugins] HACS Frontend repo "mini-media-player" is already installed, Remove it or disable include custom cards
-2022-07-11 11:08:05 WARNING (MainThread) [homeassistant.config_entries] Config entry 'VMG8825-T50' for upnp integration not ready yet: Error connecting to device at location: http://192.168.1.1:38400/description.xml, err: ("ServerDisconnectedError('Server disconnected')", None); Retrying in background
-2022-07-11 11:08:05 WARNING (zeroconf-ServiceBrowser-_googlecast._tcp-90) [pychromecast.dial] Failed to determine cast type for host <unknown> (<urlopen error [Errno 111] Connection refused>) (services:{ServiceInfo(type='mdns', data='Onkyo-TX-NR686-d5004ca68c4cada656918971bbec1d52._googlecast._tcp.local.')})
-2022-07-11 16:47:29 WARNING (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Heartbeat timeout, resetting connection
-2022-07-11 16:47:59 ERROR (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.171', 8009)), retrying in 5.0s
-2022-07-11 20:49:24 ERROR (MainThread) [homeassistant.components.brother] Timeout fetching brother data
-2022-07-12 07:57:08 WARNING (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Heartbeat timeout, resetting connection
-2022-07-12 07:57:11 ERROR (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.171', 8009)), retrying in 5.0s
-2022-07-12 07:59:05 WARNING (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Heartbeat timeout, resetting connection
-2022-07-12 07:59:08 ERROR (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.171', 8009)), retrying in 5.0s
-2022-07-12 09:04:26 WARNING (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Heartbeat timeout, resetting connection
-2022-07-12 09:04:36 ERROR (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.171', 8009)), retrying in 5.0s
-2022-07-12 16:41:33 WARNING (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Heartbeat timeout, resetting connection
-2022-07-12 16:41:36 ERROR (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.171', 8009)), retrying in 5.0s
-2022-07-12 16:54:10 WARNING (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Heartbeat timeout, resetting connection
-2022-07-12 16:54:40 ERROR (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.171', 8009)), retrying in 5.0s
-2022-07-12 16:57:49 WARNING (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Heartbeat timeout, resetting connection
-2022-07-12 16:58:19 ERROR (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.171', 8009)), retrying in 5.0s
-2022-07-13 02:11:40 WARNING (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Heartbeat timeout, resetting connection
-2022-07-13 02:12:10 ERROR (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.171', 8009)), retrying in 5.0s
-2022-07-13 02:16:16 WARNING (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Heartbeat timeout, resetting connection
-2022-07-13 02:16:46 ERROR (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.171', 8009)), retrying in 5.0s
-2022-07-13 09:04:30 WARNING (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Heartbeat timeout, resetting connection
-2022-07-13 09:04:48 ERROR (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.171', 8009)), retrying in 5.0s
-2022-07-13 18:16:39 WARNING (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Heartbeat timeout, resetting connection
-2022-07-13 18:16:57 ERROR (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.171', 8009)), retrying in 5.0s
-2022-07-13 23:31:36 WARNING (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Heartbeat timeout, resetting connection
-2022-07-13 23:31:39 ERROR (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.171', 8009)), retrying in 5.0s
-2022-07-13 23:41:11 WARNING (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Heartbeat timeout, resetting connection
-2022-07-13 23:41:41 ERROR (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.171', 8009)), retrying in 5.0s
-2022-07-14 00:04:47 WARNING (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Heartbeat timeout, resetting connection
-2022-07-14 00:05:17 ERROR (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.171', 8009)), retrying in 5.0s
-2022-07-14 06:50:04 WARNING (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Heartbeat timeout, resetting connection
-2022-07-14 06:50:21 ERROR (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.171', 8009)), retrying in 5.0s
-2022-07-14 08:58:15 WARNING (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Heartbeat timeout, resetting connection
-2022-07-14 08:58:45 ERROR (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.171', 8009)), retrying in 5.0s
-2022-07-14 09:37:33 WARNING (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Heartbeat timeout, resetting connection
-2022-07-14 09:38:04 ERROR (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.171', 8009)), retrying in 5.0s
-2022-07-14 09:43:56 ERROR (MainThread) [homeassistant.components.shelly] Timeout fetching shellyswitch25-68C63AFB780A data
-2022-07-14 17:10:43 WARNING (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Heartbeat timeout, resetting connection
-2022-07-14 17:11:00 ERROR (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.171', 8009)), retrying in 5.0s
-2022-07-14 17:13:39 WARNING (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Heartbeat timeout, resetting connection
-2022-07-14 17:14:09 ERROR (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.171', 8009)), retrying in 5.0s
-2022-07-14 20:21:23 WARNING (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Heartbeat timeout, resetting connection
-2022-07-14 20:21:26 ERROR (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.171', 8009)), retrying in 5.0s
-2022-07-15 06:18:47 WARNING (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Heartbeat timeout, resetting connection
-2022-07-15 06:19:17 ERROR (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.171', 8009)), retrying in 5.0s
-2022-07-15 06:23:27 WARNING (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Heartbeat timeout, resetting connection
-2022-07-15 06:23:57 ERROR (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.171', 8009)), retrying in 5.0s
-2022-07-15 08:42:21 WARNING (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Heartbeat timeout, resetting connection
-2022-07-15 08:42:51 ERROR (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.171', 8009)), retrying in 5.0s
-2022-07-15 09:15:11 WARNING (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Heartbeat timeout, resetting connection
-2022-07-15 09:15:28 ERROR (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.171', 8009)), retrying in 5.0s
-2022-07-15 09:21:35 WARNING (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Heartbeat timeout, resetting connection
-2022-07-15 09:21:53 ERROR (Thread-6) [pychromecast.socket_client] [tvsala(192.168.1.171):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.171', 8009)), retrying in 5.0s
+2022-07-15 11:47:40 WARNING (SyncWorker_1) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2022-07-15 11:47:40 WARNING (SyncWorker_2) [homeassistant.loader] We found a custom integration ui_lovelace_minimalist which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2022-07-15 11:47:40 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration birthdays which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2022-07-15 11:47:40 WARNING (SyncWorker_4) [homeassistant.loader] We found a custom integration afvalwijzer which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2022-07-15 11:47:40 WARNING (SyncWorker_3) [homeassistant.loader] We found a custom integration browser_mod which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2022-07-15 11:47:41 WARNING (MainThread) [homeassistant.config] Package homeassistant contains invalid customize
+2022-07-15 11:47:47 ERROR (MainThread) [homeassistant.setup] Error during setup of component browser_mod
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/setup.py", line 235, in _async_setup_component
+    result = await task
+  File "/config/custom_components/browser_mod/__init__.py", line 39, in async_setup
+    for d in config[DOMAIN].get(CONFIG_DEVICES, {}):
+KeyError: 'browser_mod'
+2022-07-15 11:47:48 ERROR (MainThread) [custom_components.ui_lovelace_minimalist.load_plugins] HACS Frontend repo "button-card" is already installed, Remove it or disable include custom cards
+2022-07-15 11:47:48 ERROR (MainThread) [custom_components.ui_lovelace_minimalist.load_plugins] HACS Frontend repo "light-entity-card" is already installed, Remove it or disable include custom cards
+2022-07-15 11:47:48 ERROR (MainThread) [custom_components.ui_lovelace_minimalist.load_plugins] HACS Frontend repo "lovelace-card-mod" is already installed, Remove it or disable include custom cards
+2022-07-15 11:47:48 ERROR (MainThread) [custom_components.ui_lovelace_minimalist.load_plugins] HACS Frontend repo "lovelace-auto-entities" is already installed, Remove it or disable include custom cards
+2022-07-15 11:47:48 ERROR (MainThread) [custom_components.ui_lovelace_minimalist.load_plugins] HACS Frontend repo "mini-graph-card" is already installed, Remove it or disable include custom cards
+2022-07-15 11:47:48 ERROR (MainThread) [custom_components.ui_lovelace_minimalist.load_plugins] HACS Frontend repo "mini-media-player" is already installed, Remove it or disable include custom cards
+2022-07-15 11:47:52 WARNING (MainThread) [homeassistant.config_entries] Config entry 'VMG8825-T50' for upnp integration not ready yet: Error connecting to device at location: http://192.168.1.1:38400/description.xml, err: ("ServerDisconnectedError('Server disconnected')", None); Retrying in background
+2022-07-15 11:47:52 WARNING (zeroconf-ServiceBrowser-_googlecast._tcp-91) [pychromecast.dial] Failed to determine cast type for host <unknown> (<urlopen error [Errno 111] Connection refused>) (services:{ServiceInfo(type='mdns', data='Onkyo-TX-NR686-d5004ca68c4cada656918971bbec1d52._googlecast._tcp.local.')})
+2022-07-15 11:47:52 ERROR (MainThread) [custom_components.hacs] HACS is disabled - HacsDisabledReason.INVALID_TOKEN
+2022-07-15 11:47:52 ERROR (MainThread) [custom_components.hacs] Bad credentials
+Traceback (most recent call last):
+  File "/config/custom_components/hacs/base.py", line 449, in async_can_update
+    response = await self.async_github_api_method(self.githubapi.rate_limit)
+  File "/config/custom_components/hacs/base.py", line 503, in async_github_api_method
+    raise HacsException(_exception)
+custom_components.hacs.exceptions.HacsException: Bad credentials
