@@ -1,0 +1,37 @@
+# Loads default set of integrations. Do not remove.
+default_config:
+
+################################################
+## Packages / Home-Assistant
+################################################
+homeassistant:
+  name: Home
+  unit_system: metric
+  time_zone: Europe/Amsterdam
+  packages: !include_dir_named packages
+  auth_providers:
+    - type: homeassistant
+# Text to speech
+tts:
+  - platform: google_translate
+
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
+frontend:
+  themes: !include_dir_merge_named themes
+
+lovelace:
+  mode: yaml
+  # Add yaml dashboards
+
+browser_mod:
+birthdays:
+  - name: "Frodo Baggins"
+    date_of_birth: 1921-09-22
+  - name: "Bilbo Baggins"
+    date_of_birth: 1843-09-22
+  - name: Elvis
+    date_of_birth: 1935-01-08
+    icon: "mdi:music"

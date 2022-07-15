@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace_resources",
+  "data": {
+    "items": [
+      {
+        "url": "/hacsfiles/button-card/button-card.js?hacstag=146194325342",
+        "type": "module",
+        "id": "d94bc9df46234447b8b4e7689d3c877e"
+      },
+      {
+        "url": "/hacsfiles/lovelace-card-mod/card-mod.js?hacstag=190927524315",
+        "type": "module",
+        "id": "987b5c7ef13d499bb65731b7a14e763d"
+      },
+      {
+        "url": "/hacsfiles/mini-graph-card/mini-graph-card-bundle.js?hacstag=1512800620110",
+        "type": "module",
+        "id": "bf53d6a9eb924681961a3a6ba831cfd4"
+      },
+      {
+        "url": "/hacsfiles/mini-media-player/mini-media-player-bundle.js?hacstag=1485208381164",
+        "type": "module",
+        "id": "977cb37b790c44389e9c4b52c7064428"
+      },
+      {
+        "url": "/hacsfiles/light-entity-card/light-entity-card.js?hacstag=168744428500",
+        "type": "module",
+        "id": "26417a1ac51f43668e517deab6534f43"
+      },
+      {
+        "url": "/hacsfiles/lovelace-auto-entities/auto-entities.js?hacstag=1677445841110",
+        "type": "module",
+        "id": "a28c407c227a408ebd073427b2e6fb15"
+      },
+      {
+        "url": "/hacsfiles/lovelace-mushroom/mushroom.js?hacstag=444350375200",
+        "type": "module",
+        "id": "574f024aa2914065b136615f59a401ef"
+      }
+    ]
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.config_entries",
+  "data": {
+    "entries": [
+      {
+        "entry_id": "a394e379d29127d4e183621444039980",
+        "version": 1,
+        "domain": "hassio",
+        "title": "Supervisor",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "system",
+        "unique_id": "hassio",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "676a90ba0903ff7d329ce767883794a6",
+        "version": 1,
+        "domain": "raspberry_pi",
+        "title": "Raspberry Pi",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "system",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "c5fb706b37e4aff9ed39a6bc437334d0",
+        "version": 1,
+        "domain": "sun",
+        "title": "Sun",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "import",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "645df30430f890e440a68aedbcc090a5",
+        "version": 1,
+        "domain": "rpi_power",
+        "title": "Raspberry Pi Power Supply Checker",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "4bb0b700030248fd9a530ab7f796c052",
+        "version": 1,
+        "domain": "cast",
+        "title": "Google Cast",
+        "data": {
+          "ignore_cec": [],
+          "known_hosts": [],
+          "uuid": [],
+          "user_id": "44af503e1627497a836aed6d9e8c09d5"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "cast",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "ac1cbf91358948602e5831ade1d7f3a7",
+        "version": 1,
+        "domain": "met",
+        "title": "Home",
+        "data": {
+          "track_home": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "668d6b6c25dca7c2ac30f0c1a4dd507f",
+        "version": 1,
+        "domain": "radio_browser",
+        "title": "Radio Browser",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "a22a365ae1baadeaef7a6bbee2b08f8c",
+        "version": 1,
+        "domain": "tado",
+        "title": "Caldas Ramos",
+        "data": {
+          "username": "caldas.victor@gmail.com",
+          "password": "30Mar!na01"
+        },
+        "options": {
+          "fallback": "TADO_DEFAULT"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "homekit",
+        "unique_id": "409628",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "3176b7d8fa766943cb1f7b36deeda273",
+        "version": 1,
+        "domain": "shelly",
+        "title": "shellyswitch25-68C63AFB780A",
+        "data": {
+          "host": "192.168.1.37",
+          "sleep_period": 0,
+          "model": "SHSW-25",
+          "gen": 1
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "68C63AFB780A",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "0b950eecdd3aa13d293d6d4fcc264cd9",
+        "version": 1,
+        "domain": "brother",
+        "title": "DCP-1610W E74228C0N392594",
+        "data": {
+          "host": "192.168.1.28",
+          "type": "laser"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "e74228c0n392594",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "7e41f3e538c47653551280f98ade5d4f",
+        "version": 1,
+        "domain": "homekit_controller",
+        "title": "tado Internet Bridge IB2331906304",
+        "data": {
+          "AccessoryPairingID": "ad:80:4f:67:39:f7",
+          "AccessoryLTPK": "baf96a5cc9865943bb22fe11aeb233f2214df29deacbf905c29e6784dd7a2f63",
+          "iOSPairingId": "95a37612-1ba2-4428-a12c-05e3b4c0f781",
+          "iOSDeviceLTSK": "bfd3202389ea974d8acbf8eabcb5fa9b74a994a2246b9108874ddfedf30895dd",
+          "iOSDeviceLTPK": "9fb1015460a781e6a7cb40c8845691bd9a8618f5bac9a0ce12887afc06f3fa81",
+          "AccessoryIP": "192.168.1.175",
+          "AccessoryPort": 80,
+          "Connection": "IP"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "ad:80:4f:67:39:f7",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "06e4e3bc2065feea75ed7217311ef9f9",
+        "version": 1,
+        "domain": "hacs",
+        "title": "",
+        "data": {
+          "token": "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"
+        },
+        "options": {
+          "sidepanel_title": "HACS",
+          "sidepanel_icon": "hacs:hacs",
+          "release_limit": 5,
+          "country": "ALL",
+          "appdaemon": false,
+          "netdaemon": false,
+          "debug": false,
+          "experimental": false
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "a86c46194fed3ef1ceb72c5482f3af7d",
+        "version": 1,
+        "domain": "ui_lovelace_minimalist",
+        "title": "UI Lovelace Minimalist",
+        "data": {
+          "language": "English (GB)",
+          "sidepanel_enabled": false,
+          "sidepanel_title": "UI Lovelace Minimalist",
+          "sidepanel_icon": "mdi:flower",
+          "adaptive_ui_enabled": false,
+          "adaptive_ui_title": "UI Lovelace Minimalist",
+          "adaptive_ui_icon": "mdi:flower",
+          "theme": "minimalist-desktop",
+          "theme_path": "themes/",
+          "include_other_cards": true
+        },
+        "options": {
+          "language": "English (GB)",
+          "sidepanel_enabled": true,
+          "sidepanel_title": "UI Lovelace Minimalist",
+          "sidepanel_icon": "mdi:flower",
+          "adaptive_ui_enabled": false,
+          "adaptive_ui_title": "UI Lovelace Minimalist",
+          "adaptive_ui_icon": "mdi:flower",
+          "theme": "minimalist-desktop",
+          "theme_path": "themes/",
+          "include_other_cards": true
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "2c06b0effc33926b86f7b613fcc74e0f",
+        "version": 1,
+        "domain": "browser_mod",
+        "title": "Browser Mod",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "import",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "9a1286ee45eed2d60b25e539c6b08a65",
+        "version": 1,
+        "domain": "upnp",
+        "title": "VMG8825-T50",
+        "data": {
+          "udn": "uuid:72f59862-0749-437e-8eb0-e2595b367e0f",
+          "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+          "original_udn": "uuid:72f59862-0749-437e-8eb0-e2595b367e0f",
+          "location": "http://192.168.1.1:38400/description.xml",
+          "mac_address": "c8:54:4b:96:d4:f0"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "unique_id": "uuid:72f59862-0749-437e-8eb0-e2595b367e0f::urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+        "disabled_by": null
+      }
+    ]
+  }
+}

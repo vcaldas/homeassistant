@@ -1,0 +1,362 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.restore_state",
+  "data": [
+    {
+      "state": {
+        "entity_id": "person.victor_caldas",
+        "state": "unknown",
+        "attributes": {
+          "editable": false,
+          "id": "victor_caldas",
+          "user_id": "8530e0e39fb1430e800bc938730c17e2",
+          "friendly_name": "Victor Caldas"
+        },
+        "last_changed": "2022-07-11T09:07:53.860080+00:00",
+        "last_updated": "2022-07-11T09:08:05.771165+00:00",
+        "context": {
+          "id": "01G7P8830BPS7HRP8H318VYVGX",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-15T09:08:06.365578+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.home_assistant_supervisor_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "2022.07.0",
+          "in_progress": false,
+          "latest_version": "2022.07.0",
+          "release_summary": null,
+          "release_url": "https://github.com/home-assistant/supervisor/releases/tag/2022.07.0",
+          "skipped_version": null,
+          "title": "Home Assistant Supervisor",
+          "entity_picture": "https://brands.home-assistant.io/hassio/icon.png",
+          "friendly_name": "Home Assistant Supervisor: Update",
+          "supported_features": 1
+        },
+        "last_changed": "2022-07-11T09:08:00.623494+00:00",
+        "last_updated": "2022-07-11T09:08:00.623494+00:00",
+        "context": {
+          "id": "01G7P87XZF9J75YXH7ABRTXD02",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-15T09:08:06.365578+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.home_assistant_core_update",
+        "state": "on",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "2022.7.3",
+          "in_progress": false,
+          "latest_version": "2022.7.5",
+          "release_summary": null,
+          "release_url": "https://www.home-assistant.io/latest-release-notes/",
+          "skipped_version": null,
+          "title": "Home Assistant Core",
+          "entity_picture": "https://brands.home-assistant.io/homeassistant/icon.png",
+          "friendly_name": "Home Assistant Core: Update",
+          "supported_features": 11
+        },
+        "last_changed": "2022-07-14T00:58:22.205493+00:00",
+        "last_updated": "2022-07-15T07:00:18.210582+00:00",
+        "context": {
+          "id": "01G80AGZ521EANJ6Y4MWTBT6JY",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-15T09:08:06.365578+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.file_editor_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "5.3.3",
+          "in_progress": false,
+          "latest_version": "5.3.3",
+          "release_summary": "# Changelog\n\n## 5.3.3\n\n- Fix Home Assistant API endpoint\n\n## 5.3.2\n\n- Update base image to Alpine 3.14\n\n## 5.3.1\n\n- Update base image to Alpine 3.13\n\n## 5.3.0\n\n- Ignore input-keyword used in blueprints in yaml-linting\n\n## 5.2.0\n\n- Add git option which all",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "File editor",
+          "entity_picture": "/api/hassio/addons/core_configurator/icon",
+          "friendly_name": "File editor: Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-07-11T09:08:00.624636+00:00",
+        "last_updated": "2022-07-11T09:08:00.624636+00:00",
+        "context": {
+          "id": "01G7P87XZGE9AQ7FZNJG1ANMAY",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-15T09:08:06.365578+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.terminal_ssh_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "9.6.0",
+          "in_progress": false,
+          "latest_version": "9.6.0",
+          "release_summary": "# Changelog\n\n## 9.6.0\n\n**Breaking change**: RSA keys generated using the SHA-1 hash algorithm\nwere disabled by OpenSSH due to a security vulnerability. If you find\nyour RSA key does not work after update you will need to make a new key\nwith a stronger alg",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Terminal & SSH",
+          "entity_picture": "/api/hassio/addons/core_ssh/icon",
+          "friendly_name": "Terminal & SSH: Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-07-11T09:08:00.624979+00:00",
+        "last_updated": "2022-07-11T09:08:00.624979+00:00",
+        "context": {
+          "id": "01G7P87XZG1SE5P874W93YF5YK",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-15T09:08:06.365578+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.git_pull_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "7.13.1",
+          "in_progress": false,
+          "latest_version": "7.13.1",
+          "release_summary": null,
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Git pull",
+          "entity_picture": "/api/hassio/addons/core_git_pull/icon",
+          "friendly_name": "Git pull: Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-07-11T09:08:00.625334+00:00",
+        "last_updated": "2022-07-11T09:08:00.625334+00:00",
+        "context": {
+          "id": "01G7P87XZH362BSBJC8CERXRS6",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-15T09:08:06.365578+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.unifi_network_application_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "2.3.0",
+          "in_progress": false,
+          "latest_version": "2.3.0",
+          "release_summary": "## What\u2019s changed\n\n## \ud83d\udcda Documentation\n\n- \ud83d\udcda Use new My Home Assistant link format @frenck (#368)\n\n## \u2b06\ufe0f Dependency updates\n\n- \u2b06\ufe0f Upgrades add-on base image to 8.0.0 @frenck (#367)\n",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "UniFi Network Application",
+          "entity_picture": "/api/hassio/addons/a0d7b954_unifi/icon",
+          "friendly_name": "UniFi Network Application: Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-07-11T09:08:00.625788+00:00",
+        "last_updated": "2022-07-11T09:08:00.625788+00:00",
+        "context": {
+          "id": "01G7P87XZHEPB5ZG518CNBCRHB",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-15T09:08:06.365578+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.studio_code_server_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "5.1.2",
+          "in_progress": false,
+          "latest_version": "5.1.2",
+          "release_summary": "## What\u2019s changed\n\n## \u2b06\ufe0f Dependency updates\n\n- ESPHome from 2022.6.1 to 2022.6.2 @dependabot (#472)\n",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Studio Code Server",
+          "entity_picture": "/api/hassio/addons/a0d7b954_vscode/icon",
+          "friendly_name": "Studio Code Server: Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-07-11T09:08:00.626081+00:00",
+        "last_updated": "2022-07-11T09:08:00.626081+00:00",
+        "context": {
+          "id": "01G7P87XZJDGHT8798MP4T0C3Y",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-15T09:08:06.365578+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.home_assistant_operating_system_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "8.2",
+          "in_progress": false,
+          "latest_version": "8.2",
+          "release_summary": null,
+          "release_url": "https://github.com/home-assistant/operating-system/releases/tag/8.2",
+          "skipped_version": null,
+          "title": "Home Assistant Operating System",
+          "entity_picture": "https://brands.home-assistant.io/homeassistant/icon.png",
+          "friendly_name": "Home Assistant Operating System: Update",
+          "supported_features": 3
+        },
+        "last_changed": "2022-07-11T09:08:00.626627+00:00",
+        "last_updated": "2022-07-11T09:08:00.626627+00:00",
+        "context": {
+          "id": "01G7P87XZJYC00T0NNVRRCTTB8",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-15T09:08:06.365578+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.tado_internet_bridge_ib2331906304_identify",
+        "state": "unknown",
+        "attributes": {
+          "friendly_name": "tado Internet Bridge IB2331906304 Identify"
+        },
+        "last_changed": "2022-07-11T09:08:05.271523+00:00",
+        "last_updated": "2022-07-11T09:08:05.271523+00:00",
+        "context": {
+          "id": "01G7P882GQ0QQEQ1RW0WHWE6YB",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-15T09:08:06.365578+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.tado_smart_radiator_thermostat_va1004345088_identify",
+        "state": "unknown",
+        "attributes": {
+          "friendly_name": "tado Smart Radiator Thermostat VA1004345088 Identify"
+        },
+        "last_changed": "2022-07-11T09:08:05.271735+00:00",
+        "last_updated": "2022-07-11T09:08:05.271735+00:00",
+        "context": {
+          "id": "01G7P882GQZ1D9SYFXPTG52S36",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-15T09:08:06.365578+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.tado_smart_radiator_thermostat_va2129598208_identify",
+        "state": "unknown",
+        "attributes": {
+          "friendly_name": "tado Smart Radiator Thermostat VA2129598208 Identify"
+        },
+        "last_changed": "2022-07-11T09:08:05.271941+00:00",
+        "last_updated": "2022-07-11T09:08:05.271941+00:00",
+        "context": {
+          "id": "01G7P882GQC1SRV4GREHT3F2G2",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-15T09:08:06.365578+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.tado_smart_thermostat_ru0616763904_identify",
+        "state": "unknown",
+        "attributes": {
+          "friendly_name": "tado Smart Thermostat RU0616763904 Identify"
+        },
+        "last_changed": "2022-07-11T09:08:05.272139+00:00",
+        "last_updated": "2022-07-11T09:08:05.272139+00:00",
+        "context": {
+          "id": "01G7P882GRC00E87V7PBJQN8HJ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-15T09:08:06.365578+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.shellyswitch25_68c63afb780a_ota_update",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "update",
+          "friendly_name": "shellyswitch25-68C63AFB780A OTA Update"
+        },
+        "last_changed": "2022-07-11T09:08:05.525415+00:00",
+        "last_updated": "2022-07-11T09:08:05.525415+00:00",
+        "context": {
+          "id": "01G7P882RNMJW63SKYVGP8F3BS",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-15T09:08:06.365578+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.shellyswitch25_68c63afb780a_reboot",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "restart",
+          "friendly_name": "shellyswitch25-68C63AFB780A Reboot"
+        },
+        "last_changed": "2022-07-11T09:08:05.525785+00:00",
+        "last_updated": "2022-07-11T09:08:05.525785+00:00",
+        "context": {
+          "id": "01G7P882RNZ3D8QAV0K6VZWQ7H",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-15T09:08:06.365578+00:00"
+    }
+  ]
+}

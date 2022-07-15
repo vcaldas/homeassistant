@@ -1,0 +1,250 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace",
+  "data": {
+    "config": {
+      "title": "Home",
+      "views": [
+        {
+          "path": "default_view",
+          "title": "Home",
+          "cards": [
+            {
+              "type": "entities",
+              "entities": [
+                "sensor.caldas_ramos_outdoor_temperature",
+                "sensor.caldas_ramos_solar_percentage",
+                "sensor.caldas_ramos_weather_condition"
+              ],
+              "title": "Cozinha"
+            },
+            {
+              "type": "entities",
+              "entities": [
+                "binary_sensor.ib2331906304_connection_state",
+                "binary_sensor.ru0616763904_battery_state",
+                "binary_sensor.ru0616763904_connection_state"
+              ],
+              "title": "Entrada"
+            },
+            {
+              "type": "grid",
+              "square": false,
+              "columns": 1,
+              "cards": [
+                {
+                  "type": "entities",
+                  "entities": [
+                    "binary_sensor.escritorio_aline_power",
+                    "binary_sensor.escritorio_aline_link",
+                    "binary_sensor.escritorio_aline_overlay",
+                    "binary_sensor.escritorio_aline_early_start",
+                    "binary_sensor.escritorio_aline_open_window",
+                    "sensor.escritorio_aline_temperature",
+                    "sensor.escritorio_aline_humidity",
+                    "sensor.escritorio_aline_heating",
+                    "sensor.escritorio_aline_tado_mode"
+                  ],
+                  "title": "Escritorio - Aline"
+                },
+                {
+                  "type": "thermostat",
+                  "entity": "climate.escritorio_aline"
+                }
+              ]
+            },
+            {
+              "type": "grid",
+              "square": false,
+              "columns": 1,
+              "cards": [
+                {
+                  "type": "entities",
+                  "entities": [
+                    {
+                      "entity": "binary_sensor.quarto_power",
+                      "name": "Power"
+                    },
+                    {
+                      "entity": "binary_sensor.quarto_link",
+                      "name": "Link"
+                    },
+                    {
+                      "entity": "binary_sensor.quarto_overlay",
+                      "name": "Overlay"
+                    },
+                    {
+                      "entity": "binary_sensor.quarto_early_start",
+                      "name": "Early start"
+                    },
+                    {
+                      "entity": "binary_sensor.quarto_open_window",
+                      "name": "Open window"
+                    },
+                    {
+                      "entity": "sensor.quarto_temperature",
+                      "name": "Temperature"
+                    },
+                    {
+                      "entity": "sensor.quarto_humidity",
+                      "name": "Humidity"
+                    },
+                    {
+                      "entity": "sensor.quarto_heating",
+                      "name": "Heating"
+                    },
+                    {
+                      "entity": "sensor.quarto_tado_mode",
+                      "name": "Tado mode"
+                    },
+                    "sensor.shellyswitch25_68c63afb780a_power",
+                    "sensor.shellyswitch25_68c63afb780a_energy",
+                    "cover.shellyswitch25_68c63afb780a"
+                  ],
+                  "title": "Quarto"
+                },
+                {
+                  "type": "thermostat",
+                  "entity": "climate.quarto"
+                }
+              ]
+            },
+            {
+              "type": "grid",
+              "square": false,
+              "columns": 1,
+              "cards": [
+                {
+                  "type": "entities",
+                  "entities": [
+                    "binary_sensor.quarto_marina_power",
+                    "binary_sensor.quarto_marina_link",
+                    "binary_sensor.quarto_marina_overlay",
+                    "binary_sensor.quarto_marina_early_start",
+                    "binary_sensor.quarto_marina_open_window",
+                    "sensor.quarto_marina_temperature",
+                    "sensor.quarto_marina_humidity",
+                    "sensor.quarto_marina_heating",
+                    "sensor.quarto_marina_tado_mode"
+                  ],
+                  "title": "Quarto - Marina"
+                },
+                {
+                  "type": "thermostat",
+                  "entity": "climate.quarto_marina"
+                }
+              ]
+            },
+            {
+              "type": "grid",
+              "square": false,
+              "columns": 1,
+              "cards": [
+                {
+                  "type": "entities",
+                  "entities": [
+                    {
+                      "entity": "binary_sensor.sala_power",
+                      "name": "Power"
+                    },
+                    {
+                      "entity": "binary_sensor.sala_link",
+                      "name": "Link"
+                    },
+                    {
+                      "entity": "binary_sensor.sala_overlay",
+                      "name": "Overlay"
+                    },
+                    {
+                      "entity": "binary_sensor.sala_early_start",
+                      "name": "Early start"
+                    },
+                    {
+                      "entity": "binary_sensor.sala_open_window",
+                      "name": "Open window"
+                    },
+                    {
+                      "entity": "sensor.sala_temperature",
+                      "name": "Temperature"
+                    },
+                    {
+                      "entity": "sensor.sala_humidity",
+                      "name": "Humidity"
+                    },
+                    {
+                      "entity": "sensor.sala_heating",
+                      "name": "Heating"
+                    },
+                    {
+                      "entity": "sensor.sala_tado_mode",
+                      "name": "Tado mode"
+                    }
+                  ],
+                  "title": "Sala"
+                },
+                {
+                  "type": "media-control",
+                  "entity": "media_player.onkyo_tx_nr686_f13dcf"
+                },
+                {
+                  "type": "thermostat",
+                  "entity": "climate.sala"
+                }
+              ]
+            },
+            {
+              "type": "entities",
+              "entities": [
+                "person.victor_caldas"
+              ]
+            },
+            {
+              "type": "entities",
+              "entities": [
+                "binary_sensor.rpi_power_status",
+                "binary_sensor.va1004345088_battery_state",
+                "binary_sensor.va1004345088_connection_state",
+                "binary_sensor.va2079266560_battery_state",
+                "binary_sensor.va2079266560_connection_state",
+                "binary_sensor.va2129598208_battery_state",
+                "binary_sensor.va2129598208_connection_state"
+              ],
+              "title": "Binary Sensor"
+            },
+            {
+              "type": "media-control",
+              "entity": "media_player.tvsala"
+            },
+            {
+              "type": "entities",
+              "entities": [
+                "sensor.afvalwijzer_tomorrow",
+                "sensor.afvalwijzer_gft",
+                "sensor.afvalwijzer_today",
+                "sensor.afvalwijzer_next_in_days",
+                "sensor.afvalwijzer_restafval",
+                "sensor.afvalwijzer_day_after_tomorrow",
+                "sensor.afvalwijzer_next_date",
+                "sensor.afvalwijzer_next_type",
+                "sensor.afvalwijzer_plastic"
+              ],
+              "title": "Sensor"
+            },
+            {
+              "type": "weather-forecast",
+              "entity": "weather.home",
+              "show_forecast": false
+            },
+            {
+              "show_current": true,
+              "show_forecast": true,
+              "type": "weather-forecast",
+              "entity": "weather.home"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

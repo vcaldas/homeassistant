@@ -1,0 +1,30 @@
+homeassistant:
+  customize:
+    sensor.afvalwijzer_today:
+      friendly_name: Hoje
+    sensor.afvalwijzer_tomorrow:
+      friendly_name: Amanhã
+    sensor.afvalwijzer_next_item:
+      friendly_name: Próximo item
+    sensor.afvalwijzer_next_in_days:
+      friendly_name: Próxima coleta
+    input_boolean.waste_reminder:
+      icon: mdi:reminder
+
+    sensor.afvalwijzer_gft:
+      friendly_name: Lixo Orgânico
+      entity_picture: /local/afvalwijzer/GFT.png
+    sensor.afvalwijzer_papier:
+      friendly_name: Papel
+      entity_picture: /local/afvalwijzer/Papier.png
+    sensor.afvalwijzer_plastic:
+      friendly_name: Reciclável
+      entity_picture: /local/afvalwijzer/PMD.png
+    sensor.afvalwijzer_restafval:
+      friendly_name: Lixo Geral
+      entity_picture: /local/afvalwijzer/Restafval.png
+
+sensor:
+  - platform: afvalwijzer
+    postal_code: !secret address_zip
+    street_number: !secret address_number

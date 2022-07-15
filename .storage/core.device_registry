@@ -1,0 +1,802 @@
+{
+  "version": 1,
+  "minor_version": 3,
+  "key": "core.device_registry",
+  "data": {
+    "devices": [
+      {
+        "config_entries": [
+          "a394e379d29127d4e183621444039980"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "core"
+          ]
+        ],
+        "manufacturer": "Home Assistant",
+        "model": "Home Assistant Core",
+        "name": "Home Assistant Core",
+        "sw_version": "2022.7.3",
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "2cb75043836301b77d082aa7b02796f0",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "a394e379d29127d4e183621444039980"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "supervisor"
+          ]
+        ],
+        "manufacturer": "Home Assistant",
+        "model": "Home Assistant Supervisor",
+        "name": "Home Assistant Supervisor",
+        "sw_version": "2022.07.0",
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "2ac81c61d0708d2581c5433a57870278",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "a394e379d29127d4e183621444039980"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "OS"
+          ]
+        ],
+        "manufacturer": "Home Assistant",
+        "model": "Home Assistant Operating System",
+        "name": "Home Assistant Operating System",
+        "sw_version": "8.2",
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "a49fcc3a23b3e7e2154320f7d4342619",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "4bb0b700030248fd9a530ab7f796c052"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "cast",
+            "d5004ca68c4cada656918971bbec1d52"
+          ]
+        ],
+        "manufacturer": "Unknown manufacturer",
+        "model": "Onkyo TX-NR686",
+        "name": "Onkyo TX-NR686 F13DCF",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "d39d4d4dc9d7d8629ee5c06e9ceca32b",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "4bb0b700030248fd9a530ab7f796c052"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "cast",
+            "36d6f86c17c81abe36110643e4f240a7"
+          ]
+        ],
+        "manufacturer": "Philips",
+        "model": "TPM191E",
+        "name": "tvsala",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "4249a7670e21b4501589d20b314d58e9",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "ac1cbf91358948602e5831ade1d7f3a7"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "met"
+          ]
+        ],
+        "manufacturer": "Met.no",
+        "model": "Forecast",
+        "name": "Forecast",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "d6b3f264ffcdb12dda6ebfb3c7c76bf0",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "https://www.met.no/en"
+      },
+      {
+        "config_entries": [
+          "a22a365ae1baadeaef7a6bbee2b08f8c"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tado",
+            "IB2331906304"
+          ]
+        ],
+        "manufacturer": "Tado",
+        "model": "IB01",
+        "name": "IB2331906304",
+        "sw_version": "92.1",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "dac806d8d3d4d5cef355e643c03a2f9e",
+        "via_device_id": "dac806d8d3d4d5cef355e643c03a2f9e",
+        "area_id": "entrada",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "https://app.tado.com/en/main/settings/rooms-and-devices/device/IB2331906304"
+      },
+      {
+        "config_entries": [
+          "a22a365ae1baadeaef7a6bbee2b08f8c"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tado",
+            "RU0616763904"
+          ]
+        ],
+        "manufacturer": "Tado",
+        "model": "RU02",
+        "name": "RU0616763904",
+        "sw_version": "97.1",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "88c1926e110b32fd84398e3c8c0bdc0a",
+        "via_device_id": "88c1926e110b32fd84398e3c8c0bdc0a",
+        "area_id": "entrada",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "https://app.tado.com/en/main/settings/rooms-and-devices/device/RU0616763904"
+      },
+      {
+        "config_entries": [
+          "a22a365ae1baadeaef7a6bbee2b08f8c"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tado",
+            "VA1004345088"
+          ]
+        ],
+        "manufacturer": "Tado",
+        "model": "VA02",
+        "name": "VA1004345088",
+        "sw_version": "95.1",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "78d4686146ea62d60e95285f54224f6b",
+        "via_device_id": "78d4686146ea62d60e95285f54224f6b",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "https://app.tado.com/en/main/settings/rooms-and-devices/device/VA1004345088"
+      },
+      {
+        "config_entries": [
+          "a22a365ae1baadeaef7a6bbee2b08f8c"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tado",
+            "VA2079266560"
+          ]
+        ],
+        "manufacturer": "Tado",
+        "model": "VA02",
+        "name": "VA2079266560",
+        "sw_version": "91.1",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "6a601eb5a2310cebf82c891f0a75b06f",
+        "via_device_id": "6a601eb5a2310cebf82c891f0a75b06f",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "https://app.tado.com/en/main/settings/rooms-and-devices/device/VA2079266560"
+      },
+      {
+        "config_entries": [
+          "a22a365ae1baadeaef7a6bbee2b08f8c"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tado",
+            "VA2129598208"
+          ]
+        ],
+        "manufacturer": "Tado",
+        "model": "VA02",
+        "name": "VA2129598208",
+        "sw_version": "95.1",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "d9554965192b0567865b8c961824f250",
+        "via_device_id": "d9554965192b0567865b8c961824f250",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "https://app.tado.com/en/main/settings/rooms-and-devices/device/VA2129598208"
+      },
+      {
+        "config_entries": [
+          "a22a365ae1baadeaef7a6bbee2b08f8c"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tado",
+            "409628_1"
+          ]
+        ],
+        "manufacturer": "Tado",
+        "model": "Zone",
+        "name": "Sala",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "015bb59040c8bf2a45f5203db7878bf9",
+        "via_device_id": null,
+        "area_id": "living_room",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "https://app.tado.com/en/main/home/zoneV2/1"
+      },
+      {
+        "config_entries": [
+          "a22a365ae1baadeaef7a6bbee2b08f8c"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tado",
+            "409628_2"
+          ]
+        ],
+        "manufacturer": "Tado",
+        "model": "Zone",
+        "name": "Quarto Marina",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "24695d7a66cf6b25087a1d50db3f54d7",
+        "via_device_id": null,
+        "area_id": "quarto_marina",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "https://app.tado.com/en/main/home/zoneV2/2"
+      },
+      {
+        "config_entries": [
+          "a22a365ae1baadeaef7a6bbee2b08f8c"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tado",
+            "409628_3"
+          ]
+        ],
+        "manufacturer": "Tado",
+        "model": "Zone",
+        "name": "Quarto",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "5555e4244a423fd59da65e390dfdd2db",
+        "via_device_id": null,
+        "area_id": "bedroom",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "https://app.tado.com/en/main/home/zoneV2/3"
+      },
+      {
+        "config_entries": [
+          "a22a365ae1baadeaef7a6bbee2b08f8c"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tado",
+            "409628_4"
+          ]
+        ],
+        "manufacturer": "Tado",
+        "model": "Zone",
+        "name": "escritório Aline",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "47943dad447a0f36b2f3118964edaa50",
+        "via_device_id": null,
+        "area_id": "escritorio_aline",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "https://app.tado.com/en/main/home/zoneV2/4"
+      },
+      {
+        "config_entries": [
+          "a22a365ae1baadeaef7a6bbee2b08f8c"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tado",
+            409628
+          ]
+        ],
+        "manufacturer": "Tado",
+        "model": "Home",
+        "name": "Caldas Ramos",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "219771549ae7a9df2fe356db9daef6d7",
+        "via_device_id": null,
+        "area_id": "kitchen",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "https://app.tado.com"
+      },
+      {
+        "config_entries": [
+          "3176b7d8fa766943cb1f7b36deeda273"
+        ],
+        "connections": [
+          [
+            "mac",
+            "68:c6:3a:fb:78:0a"
+          ]
+        ],
+        "identifiers": [],
+        "manufacturer": "Shelly",
+        "model": "Shelly 2.5",
+        "name": "shellyswitch25-68C63AFB780A",
+        "sw_version": "20210720-184734/v1.11.0-g6abd92e",
+        "hw_version": "gen1 (SHSW-25)",
+        "entry_type": null,
+        "id": "dbcbc3cf14432ff508c62c0a41545eb6",
+        "via_device_id": null,
+        "area_id": "bedroom",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "http://192.168.1.37"
+      },
+      {
+        "config_entries": [
+          "0b950eecdd3aa13d293d6d4fcc264cd9"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "brother",
+            "E74228C0N392594"
+          ]
+        ],
+        "manufacturer": "Brother",
+        "model": "DCP-1610W",
+        "name": "DCP-1610W",
+        "sw_version": "R1910301032",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "eab83ef821eaf10dfa466e362ddfb252",
+        "via_device_id": null,
+        "area_id": "escritorio_aline",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "http://192.168.1.28/"
+      },
+      {
+        "config_entries": [
+          "a394e379d29127d4e183621444039980"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "core_configurator"
+          ]
+        ],
+        "manufacturer": "Official add-ons",
+        "model": "Home Assistant Add-on",
+        "name": "File editor",
+        "sw_version": "5.3.3",
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "465ba58d53e2419501a952cada02b509",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "homeassistant://hassio/addon/core_configurator"
+      },
+      {
+        "config_entries": [
+          "a394e379d29127d4e183621444039980"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "core_ssh"
+          ]
+        ],
+        "manufacturer": "Official add-ons",
+        "model": "Home Assistant Add-on",
+        "name": "Terminal & SSH",
+        "sw_version": "9.6.0",
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "f1b9007fc279a5fa6db2ed188196f624",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "homeassistant://hassio/addon/core_ssh"
+      },
+      {
+        "config_entries": [
+          "a394e379d29127d4e183621444039980"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "core_git_pull"
+          ]
+        ],
+        "manufacturer": "Official add-ons",
+        "model": "Home Assistant Add-on",
+        "name": "Git pull",
+        "sw_version": "7.13.1",
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "20d32ab867b7400b30730f8c7e2df9e6",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "homeassistant://hassio/addon/core_git_pull"
+      },
+      {
+        "config_entries": [
+          "a394e379d29127d4e183621444039980"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "a0d7b954_unifi"
+          ]
+        ],
+        "manufacturer": "Home Assistant Community Add-ons",
+        "model": "Home Assistant Add-on",
+        "name": "UniFi Network Application",
+        "sw_version": "2.3.0",
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "55145931dfa23181c52421474aff7c35",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "homeassistant://hassio/addon/a0d7b954_unifi"
+      },
+      {
+        "config_entries": [
+          "a394e379d29127d4e183621444039980"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "a0d7b954_vscode"
+          ]
+        ],
+        "manufacturer": "Home Assistant Community Add-ons",
+        "model": "Home Assistant Add-on",
+        "name": "Studio Code Server",
+        "sw_version": "5.1.2",
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "f4ce6bc77fe2d48072d5e13868a48425",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "homeassistant://hassio/addon/a0d7b954_vscode"
+      },
+      {
+        "config_entries": [
+          "7e41f3e538c47653551280f98ade5d4f"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "homekit_controller:serial-number",
+            "IB2331906304"
+          ],
+          [
+            "homekit_controller:accessory-id",
+            "ad:80:4f:67:39:f7:aid:1"
+          ]
+        ],
+        "manufacturer": "tado",
+        "model": "IB01",
+        "name": "tado Internet Bridge IB2331906304",
+        "sw_version": "92.1",
+        "hw_version": "",
+        "entry_type": null,
+        "id": "3c2e880266762c3c1b859097a8016352",
+        "via_device_id": null,
+        "area_id": "entrada",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "7e41f3e538c47653551280f98ade5d4f"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "homekit_controller:serial-number",
+            "VA1004345088"
+          ],
+          [
+            "homekit_controller:accessory-id",
+            "ad:80:4f:67:39:f7:aid:2"
+          ]
+        ],
+        "manufacturer": "tado",
+        "model": "SRT01",
+        "name": "tado Smart Radiator Thermostat VA1004345088",
+        "sw_version": "95.1",
+        "hw_version": "",
+        "entry_type": null,
+        "id": "904b6c02811e86713fd240dc474d8a33",
+        "via_device_id": "3c2e880266762c3c1b859097a8016352",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "7e41f3e538c47653551280f98ade5d4f"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "homekit_controller:accessory-id",
+            "ad:80:4f:67:39:f7:aid:3"
+          ],
+          [
+            "homekit_controller:serial-number",
+            "VA2129598208"
+          ]
+        ],
+        "manufacturer": "tado",
+        "model": "SRT01",
+        "name": "tado Smart Radiator Thermostat VA2129598208",
+        "sw_version": "95.1",
+        "hw_version": "",
+        "entry_type": null,
+        "id": "78b5a88b5d7dfef3147e719dd31fca04",
+        "via_device_id": "3c2e880266762c3c1b859097a8016352",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "7e41f3e538c47653551280f98ade5d4f"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "homekit_controller:serial-number",
+            "RU0616763904"
+          ],
+          [
+            "homekit_controller:accessory-id",
+            "ad:80:4f:67:39:f7:aid:4"
+          ]
+        ],
+        "manufacturer": "tado",
+        "model": "ST01",
+        "name": "tado Smart Thermostat RU0616763904",
+        "sw_version": "97.1",
+        "hw_version": "",
+        "entry_type": null,
+        "id": "8d05c7bda10727ea6ab506065aa14884",
+        "via_device_id": "3c2e880266762c3c1b859097a8016352",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "06e4e3bc2065feea75ed7217311ef9f9"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hacs",
+            "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd"
+          ]
+        ],
+        "manufacturer": "hacs.xyz",
+        "model": "",
+        "name": "HACS",
+        "sw_version": "1.26.0",
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "634dbf852795040bbb575c0ea63caff9",
+        "via_device_id": null,
+        "area_id": "entrada",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "homeassistant://hacs"
+      },
+      {
+        "config_entries": [
+          "9a1286ee45eed2d60b25e539c6b08a65"
+        ],
+        "connections": [
+          [
+            "mac",
+            "c8:54:4b:96:d4:f0"
+          ],
+          [
+            "upnp",
+            "uuid:72f59862-0749-437e-8eb0-e2595b367e0f"
+          ]
+        ],
+        "identifiers": [
+          [
+            "upnp",
+            "uuid:72f59862-0749-437e-8eb0-e2595b367e0f::urn:schemas-upnp-org:device:InternetGatewayDevice:1"
+          ]
+        ],
+        "manufacturer": "Zyxel",
+        "model": "VMG8825-T50",
+        "name": "VMG8825-T50",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "b9d68b9ab22f16513f1c332c3c061816",
+        "via_device_id": null,
+        "area_id": "entrada",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "2c06b0effc33926b86f7b613fcc74e0f"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "browser_mod",
+            "077bfd8e-035db832"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "077bfd8e-035db832",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "2390724491a5341da811a114da412b39",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "2c06b0effc33926b86f7b613fcc74e0f"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "browser_mod",
+            "1715a1cd-67691869"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "1715a1cd-67691869",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "551906fc6406da3e5ba6074031cc7a52",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "2c06b0effc33926b86f7b613fcc74e0f"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "browser_mod",
+            "1ad092b7-1f5b0cbc"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "1ad092b7-1f5b0cbc",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "2dfffc5e4730088f996d62113329b38d",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      }
+    ],
+    "deleted_devices": []
+  }
+}

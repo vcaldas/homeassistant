@@ -1,0 +1,9 @@
+{
+    "domain": "birthdays",
+    "name": "Birthdays",
+    "documentation": "https://github.com/Miicroo/ha-birthdays",
+    "dependencies": [],
+    "codeowners": ["@Miicroo"],
+    "requirements": [],
+    "version": "1.0.0"
+}

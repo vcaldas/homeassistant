@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "minor_version": 1,
+  "key": "person",
+  "data": {
+    "items": [
+      {
+        "name": "Victor Caldas",
+        "user_id": "8530e0e39fb1430e800bc938730c17e2",
+        "device_trackers": [],
+        "id": "victor_caldas"
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace.kiosk_ui",
+  "data": {
+    "config": {
+      "views": [
+        {
+          "title": "Home",
+          "cards": [
+            {
+              "show_current": true,
+              "show_forecast": true,
+              "type": "weather-forecast",
+              "entity": "weather.home",
+              "name": "Sassenheim",
+              "secondary_info_attribute": "wind_speed",
+              "theme": "minimalist-desktop"
+            },
+            {
+              "show_name": true,
+              "show_icon": true,
+              "show_state": true,
+              "type": "glance",
+              "entities": [
+                "sensor.afvalwijzer_gft",
+                "sensor.afvalwijzer_plastic",
+                "sensor.afvalwijzer_restafval"
+              ],
+              "sort": {
+                "attribute": "days_until_collection_date",
+                "method": "attribute",
+                "numeric": true
+              },
+              "title": "Coleta de Lixo",
+              "columns": 3,
+              "theme": "Mushroom",
+              "state_color": true
+            },
+            {
+              "type": "entities",
+              "title": "Birthdays",
+              "show_header_toggle": false,
+              "entities": [
+                "birthdays.frodo_baggins",
+                "birthdays.bilbo_baggins",
+                "birthdays.elvis"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

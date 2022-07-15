@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.area_registry",
+  "data": {
+    "areas": [
+      {
+        "name": "Sala",
+        "id": "living_room",
+        "picture": null
+      },
+      {
+        "name": "Cozinha",
+        "id": "kitchen",
+        "picture": null
+      },
+      {
+        "name": "Quarto",
+        "id": "bedroom",
+        "picture": null
+      },
+      {
+        "name": "Quarto - Marina",
+        "id": "quarto_marina",
+        "picture": null
+      },
+      {
+        "name": "Escritorio - Aline",
+        "id": "escritorio_aline",
+        "picture": null
+      },
+      {
+        "name": "Escritorio - Victor",
+        "id": "escritorio_victor",
+        "picture": null
+      },
+      {
+        "name": "Quarto - Visitas",
+        "id": "quarto_visitas",
+        "picture": null
+      },
+      {
+        "name": "Deposito",
+        "id": "deposito",
+        "picture": null
+      },
+      {
+        "name": "Entrada",
+        "id": "entrada",
+        "picture": null
+      },
+      {
+        "name": "Quarto Marina",
+        "id": "quarto_marina_2",
+        "picture": null
+      },
+      {
+        "name": "escritório Aline",
+        "id": "escritorio_aline_2",
+        "picture": null
+      }
+    ]
+  }
+}
